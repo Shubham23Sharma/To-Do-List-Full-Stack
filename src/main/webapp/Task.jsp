@@ -71,11 +71,11 @@
 </head>
 <body>
 			
-			<form action="tasksub" method="get">
+			<form action="tasksub" method="post">
 			Name : <input type="text" placeholder="Enter your name" name="userName"> <br> <br>
 			Email : <input type="email" placeholder="Enter your email" name="email"> <br> <br>
 			Task : <input type="text" placeholder="Enter your task" name="task"> <br> <br>
-			<input type="submit" value="submit">  <br> <br>
+			<input type="submit" value="Submit">  <br> <br>
 			
 			<a href="display.jsp">Display All Tasks</a>
 			

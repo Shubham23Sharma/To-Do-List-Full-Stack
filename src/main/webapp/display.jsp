@@ -8,7 +8,63 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
- 
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 20px;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    table, th, td {
+        border: 1px solid #dee2e6;
+    }
+    th, td {
+        padding: 12px;
+        text-align: left;
+    }
+    th {
+        background-color: #007bff;
+        color: #fff;
+    }
+    td a {
+        display: inline-block;
+        padding: 6px 12px;
+        
+        
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    td a:hover {
+       
+    }
+    td button {
+        padding: 6px 12px;
+        background-color: #17a2b8;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+  
+    
+ 	
+</style>
 </head>
 <body>
 
